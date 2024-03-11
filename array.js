@@ -62,7 +62,14 @@ function findGanjil(arr) {
 	return result;
 }
 
-let angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(findGenap(angka));
-console.log(findGanjil(angka));
+let angka1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(findGenap(angka1));
+console.log(findGanjil(angka1));
 
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 2, 'Feb');
+// Inserts at index 1
+console.log(months);
+
+let angka = 4 % 3
+console.log(angka)
